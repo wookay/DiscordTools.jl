@@ -12,3 +12,6 @@ Jive = "ba5e3d4b-8524-549f-bc71-e76ad9e9deed"
 
 [targets]
 test = ["Test", "Jive"]
+
+[compat]
+julia = "1"
