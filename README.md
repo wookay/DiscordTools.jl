@@ -7,6 +7,8 @@
 
 https://discordapp.com/developers/docs/
 
+ * deps https://github.com/Xh4H/Discord.jl
+
 ```julia
 julia> using Pkg; pkg"add https://github.com/Xh4H/Discord.jl.git"
 julia> using Pkg; pkg"add https://github.com/wookay/DiscordTools.jl.git"
