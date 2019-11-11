@@ -19,7 +19,7 @@ using DiscordTools
 
 token = get(ENV, "DISCORD_TOKEN", "")
 isempty(token) && throw("DISCORD_TOKEN is empty")
-c = Client(token)
+c = Client(token; prefix='!')
 open(c)
 @info :c c
 
